@@ -31,7 +31,6 @@ public:
     };
 
     class King : public Piece {
-        // missing implementations
         public:
             King(Color color): Piece(color){}
             string type() const override{
